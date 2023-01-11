@@ -33,6 +33,7 @@ In order to build the project using visual studio code:
 3. View -> Command Palette -> Open User Settings (JSON)
 4. Add
 ```JSON
+"cmake.configureOnOpen": true,
 "cmake.configureSettings": {
   "CMAKE_TOOLCHAIN_FILE": "D:/Workspace/vcpkg/scripts/buildsystems/vcpkg.cmake"
 }
