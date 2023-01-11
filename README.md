@@ -35,7 +35,7 @@ In order to build the project using visual studio code:
 ```JSON
 "cmake.configureOnOpen": true,
 "cmake.configureSettings": {
-  "CMAKE_TOOLCHAIN_FILE": "D:/Workspace/vcpkg/scripts/buildsystems/vcpkg.cmake"
+  "CMAKE_TOOLCHAIN_FILE": "[Path to vcpkg]/scripts/buildsystems/vcpkg.cmake"
 }
 ```
 Final settings json file should look like something similar to 
@@ -44,7 +44,7 @@ Final settings json file should look like something similar to
     "go.toolsManagement.autoUpdate": true,
     "cmake.configureOnOpen": true,
     "cmake.configureSettings": {
-        "CMAKE_TOOLCHAIN_FILE": "[Path to vcpkg]/scripts/buildsystems/vcpkg.cmake"
+        "CMAKE_TOOLCHAIN_FILE": "D:/Workspace/vcpkg/scripts/buildsystems/vcpkg.cmake"
     },
     "redhat.telemetry.enabled": true
 }
