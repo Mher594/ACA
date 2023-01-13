@@ -32,7 +32,7 @@ Make sure that `include directories` for `sqrt-gtest-visualstudio` project are s
 ## sqrt-gtest-vcpkg-cmake.
 sqrt-gtest-vcpkg-cmake is a CMake project, it creates a simple library with `my_sqrt` function and test it using google test. In order to install google test it uses vcpkg package manager.
 
-In order to build the project using visual studio code:
+a) In order to build the project using visual studio code:
 1. Install CMake plugin in visual studio code.
 2. Install vcpkg (https://vcpkg.io/en/getting-started.html)
 3. View -> Command Palette -> Open User Settings (JSON)
@@ -56,3 +56,7 @@ Final settings json file should look like something similar to
 ```
 5. Build the project using CMake plugin (pick a kit when prompted)
 6. Run my_sqrt_test project using CMake plugin
+
+b) In order to build the project using command line:
+
+![cmake_cmd](https://user-images.githubusercontent.com/4984553/212288429-8919939a-067f-42e0-84b5-de650646d3c7.jpg)
