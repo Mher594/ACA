@@ -24,6 +24,11 @@ Requirement for sqrt-gtest-visualstudio: Test adapter for google test
 ![gtest1](https://user-images.githubusercontent.com/4984553/210808406-b0a4aa59-d83a-444a-bff6-50c97ccdbe2c.jpg)
 ![gtest2](https://user-images.githubusercontent.com/4984553/210808423-07f14cd9-e597-4136-aa16-e2e6f0851db9.jpg)
 
+Make sure that `include directories` for `sqrt-gtest-visualstudio` project are set properly
+
+![include_directories](https://user-images.githubusercontent.com/4984553/212287593-e9ab0c21-cf79-4167-965c-cb8c77d38062.jpg)
+
+
 ## sqrt-gtest-vcpkg-cmake.
 sqrt-gtest-vcpkg-cmake is a CMake project, it creates a simple library with `my_sqrt` function and test it using google test. In order to install google test it uses vcpkg package manager.
 
